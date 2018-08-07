@@ -1,8 +1,14 @@
 <div class="container-fluid d-flex justify-content-center landing-content">
   <section class="row profile-pic">
-    <div class="mt-5 text-center">
-      <img src="assets/img/vic.png" alt="Victor's Profile Pic" class="rounded-circle img-thumbnail">
-      <h2>"Do A Thing"</h2>
+    <div *ngIf="person" class="mt-5 text-center">
+      <img [src]="person.profilePic" alt="Victor's Profile Pic" class="rounded-circle img-thumbnail mb-5">
+      <h1>{{person.name}}</h1>
+      <h2>{{person.position}}</h2>
+      <div class="row justify-content-center">
+        <i class="fa fa-quote-left"></i>
+        <h3>{{person.phrase}}</h3>
+        <i class="fa fa-quote-right"></i>
+      </div>
     </div>
   </section>
 </div>

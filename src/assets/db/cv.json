@@ -1,0 +1,105 @@
+{
+    "profilePic": "assets/img/vic.png",
+    "name": "Victor M Tommasi Uribe",
+    "position": "Fullstack Developer",
+    "phrase": "Do A Thing!",
+    "work": [
+        {
+            "workName": "4th Source",
+            "positions": ["Front-End Developer", "SharePoint Developer", "Developer"],
+            "dates": "01/2017 – Present",
+            "accomplishments":[
+                {
+                    "client": "Regeneron",
+                    "accomplishment": "Use Sharepoint Rest services to perform typical CRUD operations against SharePoint entities, such as lists and sites, Use of Nintex Workflows and Forms and Creation of custom functionallities with the use of JS",
+                    "technologies": ["Javascript", "SharePoint 2013", "Nintex"]
+                },
+                {
+                    "client": "AutoZone",
+                    "accomplishment": "Creation of new functionality in Znet, Gemini and SMS  using C/C++ programming language with QT Framework.",
+                    "technologies": ["C", "C++", "QT Framework"]
+                },
+                {
+                    "client": "Statera",
+                    "accomplishment": "Modification of existing styles with SCSS and Bootstrap 4 classes.",
+                    "technologies": ["SCSS", "Github", "Bootstrap 4 Framework"]
+                },
+                {
+                    "client": "Statera",
+                    "accomplishment": "Consuming Python API with Angularjs services, and styling",
+                    "technologies": ["Angularjs", "SCSS", "Bootstrap 3"]
+                }
+            ]
+        },
+        {
+            "workName": "PRAXIS",
+            "positions": ["SharePoint Developer"],
+            "dates": "02/2014 – 01/2017",
+            "accomplishments":[
+                {
+                    "client": "FCA México ICT",
+                    "accomplishment": "Carried out SharePoint Site Administration, Creation of custom functionallities with the use of JS and Branding",
+                    "technologies": ["Javascript", "SharePoint 2010", "Nintex", "CSS3"]
+                }
+            ]
+        },
+        {
+            "workName": "Grupo Gedosa S. de R.L. de C.V.",
+            "positions": ["SharePoint Developer"],
+            "dates": "02/2014 – 01/2017",
+            "accomplishments":[
+                {
+                    "client": "",
+                    "accomplishment": "Sharepoint implementations, SharePoint Farm maintenance, Project Server implementation, Modules development using Asp.Net, C# and JS",
+                    "technologies": ["Javascript", "SharePoint 2010", "SharePoint 2013", "CSS3", "ASP.NET", "C#", "Project Server"]
+                }
+            ]
+        },
+        {
+            "workName": "IDS Comercial S.A. de C.V.",
+            "positions": ["Developer"],
+            "dates": "01/2013 – 09/2013",
+            "accomplishments":[
+                {
+                    "client": "",
+                    "accomplishment": "Wrote Cobol85 code to extract info on plain files and insert them on database and DAOS’s, JPA, development for Informix database",
+                    "technologies": ["Cobol85", "Java EE6"]
+                }
+            ]
+        },
+        {
+            "workName": "Personal",
+            "positions": ["Gaming Development"],
+            "dates": "",
+            "accomplishments":[
+                {
+                    "client": "",
+                    "accomplishment": "Unity 3D building Graphs with mathematical functions using prefabs, and making the graph move.",
+                    "technologies": ["Unity 3D"]
+                },
+                {
+                    "client": "",
+                    "accomplishment": "Unity 3D building a test shooter with unity store assets.",
+                    "technologies": ["Unity 3D"]
+                },
+                {
+                    "client": "",
+                    "accomplishment": "Unity 3D building Mathematical Surface and displaying them in 2D and 3D.",
+                    "technologies": ["Unity 3D"]
+                },
+                {
+                    "client": "",
+                    "accomplishment": "Unity 3D constructing a fractal using coroutines.",
+                    "technologies": ["Unity 3D"]
+                },
+                {
+                    "client": "",
+                    "accomplishment": "Unity 3D stress ball, when clicking the ball, the mesh would be manipulated, so it deforms and then returns to original shape.",
+                    "technologies": ["Unity 3D"]
+                }
+            ]
+        }
+    ]
+
+            
+}

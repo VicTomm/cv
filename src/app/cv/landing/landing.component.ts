@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { CVService } from "../cv.service";
+
+import { Person } from "../models/person.model";
 
 @Component({
   selector: 'cv-landing',
@@ -6,10 +9,17 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./landing.component.scss']
 })
 export class LandingComponent implements OnInit {
-
-  constructor() { }
+  person: Person;
+  constructor(public cvService: CVService) { }
 
   ngOnInit() {
+    this.getPersonInfo();
+  }
+
+  getPersonInfo() {
+    this.cvService.getPersonInfo().subscribe((data) => {
+      this.person = data.person;
+    })
   }
 
 }
