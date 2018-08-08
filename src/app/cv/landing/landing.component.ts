@@ -9,7 +9,7 @@ import { Person } from "../models/person.model";
   styleUrls: ['./landing.component.scss']
 })
 export class LandingComponent implements OnInit {
-  person: Person;
+  person: any;
   constructor(public cvService: CVService) { }
 
   ngOnInit() {
@@ -18,7 +18,7 @@ export class LandingComponent implements OnInit {
 
   getPersonInfo() {
     this.cvService.getPersonInfo().subscribe((data) => {
-      this.person = data.person;
+      this.person = data;
     })
   }
 

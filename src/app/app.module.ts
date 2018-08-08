@@ -11,7 +11,8 @@ import { EducationComponent } from './cv/education/education.component';
 import { SkillsComponent } from './cv/skills/skills.component';
 import { AchievmentsComponent } from './cv/achievments/achievments.component';
 import { InterestComponent } from './cv/interest/interest.component';
-import {MatProgressBarModule} from '@angular/material/progress-bar';
+import {MatButtonModule, MatProgressBarModule} from '@angular/material';
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -26,9 +27,11 @@ import {MatProgressBarModule} from '@angular/material/progress-bar';
   ],
   imports: [
     BrowserModule,
+    NgbModule,
     AppRoutingModule,
     HttpClientModule,
-    MatProgressBarModule
+    MatProgressBarModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

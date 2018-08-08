@@ -1,20 +1,22 @@
-<section class="p-3 p-lg-5 d-flex flex-column" id="experience">
-  <div class="my-auto">
-    <h2 class="mb-5">Experience</h2>
+<div class="container">
+  <section class="p-3 p-lg-5 d-flex flex-column" id="experience">
+    <div class="my-auto">
+      <h3 class="mb-5">Experience</h3>
 
-    <div class="d-flex flex-column flex-md-row mb-5" *ngFor="let work of works">
-      <div class="mr-auto">
-        <h2 class="mb-0">{{work.positions}}</h2>
-        <h3 class="mb-3">{{work.workName}}</h3>
-        <div class="d-flex flex-column mb-3" *ngFor="let accomplishment of work.accomplishments">
-            <h4 class="mb-0">{{accomplishment.client}}</h4>
-            <div class="subheading mb-3">{{accomplishment.technologies}}</div>
-            <p>{{ accomplishment.accomplishment }}</p>
+      <div class="d-flex flex-column flex-md-row mb-5" *ngFor="let work of works">
+        <div class="mr-auto">
+          <h3 class="mb-0">{{work.positions}}</h3>
+          <h3 class="mb-3">{{work.workName}}</h3>
+          <div class="d-flex flex-column mb-3" *ngFor="let accomplishment of work.accomplishments">
+              <h4 class="mb-0">{{accomplishment.client}}</h4>
+              <div class="subheading mb-3">{{accomplishment.technologies}}</div>
+              <p>{{ accomplishment.accomplishment }}</p>
+          </div>
+        </div>
+        <div class="cv-date text-md-right">
+          <span class="text-primary">{{work.dates}}</span>
         </div>
       </div>
-      <div class="cv-date text-md-right">
-        <span class="text-primary">{{work.dates}}</span>
-      </div>
     </div>
-  </div>
-</section>
+  </section>
+</div>

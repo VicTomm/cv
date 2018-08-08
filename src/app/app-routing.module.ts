@@ -4,7 +4,8 @@ import { LandingComponent } from "./cv/landing/landing.component";
 import { WorkComponent } from "./cv/work/work.component";
 
 const routes: Routes = [
-    { path: '', component: LandingComponent },
+    { path: '', redirectTo: 'home', pathMatch: 'full'},
+    { path: 'home', component: LandingComponent },
     { path: 'work', component: WorkComponent }
 ];
 
